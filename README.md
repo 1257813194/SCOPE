@@ -39,7 +39,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 The datasets required to reproduce the results are not included in this repository due to size constraints.
 
 1.  **Download Data**: Please download the dataset archive `Data.rar` from our Google Drive:
-    *   **[Insert Google Drive Link Here]**
+    *   https://drive.google.com/file/d/1PLaDfJolvY1gS23UMKHR4MQxLJFCmQ59/view?usp=sharing
 2.  **Extract**: Unzip `Data.rar` into the root directory of this project.
 
 The directory structure should look like this:
@@ -90,3 +90,4 @@ If you find this code or data useful for your research, please cite our paper:
 ## 🙏 Acknowledgements
 
 This codebase incorporates components from [STAGATE](https://github.com/RucDongLab/STAGATE_pyG) for spatial data processing.
+
