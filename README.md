@@ -24,12 +24,15 @@ conda create -n scope_env python=3.9
 conda activate scope_env
 
 # Install standard dependencies
-pip install numpy pandas scipy matplotlib scanpy tqdm
+pip install numpy pandas scipy matplotlib scanpy tqdm umap-learn
 
 # Install PyTorch
 # Please verify your CUDA version and install the appropriate PyTorch version from https://pytorch.org/
 # Example for CUDA 11.8:
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+   # Install OT packages
+pip install POT geomloss
 ```
 
 > **Note**: The `STAGATE_pyG` package is included in this repository to ensure compatibility. You do not need to install it separately via pip; simply ensure the folder is present in your working directory.
@@ -90,4 +93,5 @@ If you find this code or data useful for your research, please cite our paper:
 ## 🙏 Acknowledgements
 
 This codebase incorporates components from [STAGATE](https://github.com/RucDongLab/STAGATE_pyG) for spatial data processing.
+
 
