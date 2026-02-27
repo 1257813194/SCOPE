@@ -31,7 +31,7 @@ pip install numpy pandas scipy matplotlib scanpy tqdm umap-learn
 # Example for CUDA 11.8:
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
-   # Install OT packages
+# Install OT packages
 pip install POT geomloss
 ```
 
@@ -93,5 +93,6 @@ If you find this code or data useful for your research, please cite our paper:
 ## 🙏 Acknowledgements
 
 This codebase incorporates components from [STAGATE](https://github.com/RucDongLab/STAGATE_pyG) for spatial data processing.
+
 
 
